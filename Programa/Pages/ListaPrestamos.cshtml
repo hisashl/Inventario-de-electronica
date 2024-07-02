@@ -1,0 +1,74 @@
+@page
+@model Programa.Pages.ListaPrestamosModel
+@{
+    ViewData["Title"] = "Lista de Prestamos";
+}
+
+<div class="row">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Prestamos Solicitados</h3>
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+            <table id="tabla-prm-equipos" class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Equipo</th>
+                        <th>Cantidad</th>
+                        <th>Estatus</th>
+                        <th>Salon</th>
+                        <th>Generado por</th>
+                        <th>Fecha de Inicio</th>
+                        <th>Fecha de fin</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                @if (Model.prestamos != null && Model.prestamos.Any())
+                {
+                    @foreach (var prestamo in Model.prestamos)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>@prestamo.Id</td>
+                                <td>@prestamo.Equipo</td>
+                                <td>@prestamo.Cantidad</td>
+                                <td>@prestamo.Estatus</td>
+                                <td>@prestamo.Salon</td>
+                                <td>@prestamo.GeneradoPor</td>
+                                <td>@prestamo.FechaInicio.ToString()</td>
+                                <td>@prestamo.FechaFin.ToString()</td>
+                                <td>
+                                    <form asp-page-handler="Editar" method="post">
+                                        <input type="hidden" name="id" value="@prestamo.Id" />
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </button>
+                                    </form>
+                                    <form asp-page-handler="Eliminar" method="post">
+                                        <input type="hidden" name="id" value="@prestamo.Id" />
+                                        <button type="submit" class="btn btn-danger">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        </tbody>
+                    }
+                }
+                else
+                {
+                    <tbody>
+                        <tr>
+                            <td>No se ha realizado ningun prestamo</td>
+                        </tr>
+                    </tbody>
+                }
+            </table>
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+</div>
+<!-- /.row -->

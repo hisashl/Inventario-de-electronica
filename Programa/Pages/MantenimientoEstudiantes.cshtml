@@ -1,0 +1,48 @@
+<h1>Registrar Estudiante</h1>
+
+<form method="post">
+
+  <div class="form-group">
+    <label>Nombre:</label> 
+    <input type="text" name="nombre" class="form-control" required minlength="3">
+  </div>
+
+  <div class="form-group">
+    <label>Apellido Paterno:</label>
+    <input type="text" name="apellidoPaterno" class="form-control" required minlength="3"> 
+  </div>
+
+  <div class="form-group">
+    <label>Apellido Materno:</label>
+    <input type="text" name="apellidoMaterno" class="form-control" required>
+  </div>   
+
+  <div class="form-group">
+    <label>Registro:</label> 
+    <input type="text" name="registro" class="form-control" required>
+  </div>
+
+  <div class="form-group">
+    <label>Contraseña:</label>
+    <input type="password" name="contrasena" class="form-control" required minlength="6"> 
+  </div>
+
+<div class="form-group">
+
+  <label>Grupo</label>
+
+  <select class="form-control" name="idGrupo" required>
+
+    @foreach (var grupo in Model.Grupos) 
+    {
+        <option value="@grupo.Id">@grupo.Nombre</option>
+    }
+
+  </select>
+
+</div>
+
+
+  <button type="submit" class="btn btn-primary">Guardar</button>
+
+</form>

@@ -1,0 +1,8 @@
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Programa\obj\Debug\net7.0\Programa.csproj.AssemblyReference.cache
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Programa\obj\Debug\net7.0\Programa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Programa\obj\Debug\net7.0\Programa.AssemblyInfoInputs.cache
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Programa\obj\Debug\net7.0\Programa.AssemblyInfo.cs
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Programa\obj\Debug\net7.0\Programa.csproj.CoreCompileInputs.cache
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Programa\obj\Debug\net7.0\Programa.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Programa\obj\Debug\net7.0\Programa.RazorAssemblyInfo.cache
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Programa\obj\Debug\net7.0\Programa.RazorAssemblyInfo.cs

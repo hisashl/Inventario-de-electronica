@@ -1,0 +1,33 @@
+@page
+@model Programa.Pages.MantenimientoPrestamosModel
+@{
+    ViewData["Title"] = "Mantenimiento de Prestamos";
+}
+
+<form method="post">
+    <div>
+        <label for="salon">Salon:</label>
+        <select id="salon" name="salon" asp-items="@(new SelectList(Model.Salones, "Id", "Nombre"))" required>
+            <option value="">Selecciona un salon</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="fechaInicio">Fecha de Inicio:</label>
+        <input type="date" id="fechaInicio" name="fechaInicio" min="@DateTime.Now.ToString("yyyy-MM-dd")" required>
+    </div>
+
+    <div>
+        <label for="fechaFin">Fecha de Fin:</label>
+        <input type="date" id="fechaFin" name="fechaFin" min="@Model.FechaInicio" required>
+    </div>
+
+    <div>
+        <label for="equipos">Equipos:</label>
+        <select id="equipos" name="equipos" asp-items="@(new SelectList(Model.EquiposDisponibles, "Id", "Nombre"))" multiple required>
+        </select>
+        <input type="number" id="cantidadEquipos" name="cantidadEquipos" placeholder="Cantidad" min="1" required>
+    </div>
+
+    <button type="submit">Agregar Prestamo</button>
+</form>

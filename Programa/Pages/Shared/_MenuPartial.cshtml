@@ -1,0 +1,170 @@
+@model int
+@using Backend
+<nav class="mt-2">
+    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <li class="nav-item menu-open">
+            @if (Model == (int)Enumeradores.tps_usuarios.Estudiante)
+            {
+                <a href="#" class="nav-link active">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                        Prestamos
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./ListaPrestamos" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Ver Prestamos</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./MantenimientoPrestamos" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Agregar Prestamo</p>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="nav-link active">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                        Perfil
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./MantenimientoEstudiantes" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Modificar Informacion del usuario</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./Login" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Cerrar Sesion</p>
+                        </a>
+                    </li>
+                </ul>
+            }
+            @if (Model == (int)Enumeradores.tps_usuarios.Profesor)
+            {
+                <a href="#" class="nav-link active">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                        Prestamos
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./ListaPrestamos" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Ver Prestamos</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./MantenimientoPrestamos" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Agregar Prestamo</p>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="nav-link active">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                        Perfil
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./MantenimientoProfesores" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Modificar Informacion del usuario</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./Login" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Cerrar Sesion</p>
+                        </a>
+                    </li>
+                </ul>
+            }
+            @if (Model == (int)Enumeradores.tps_usuarios.Almacenista)
+            {
+                <a href="#" class="nav-link active">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                        Mantenimientos
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./ListaMantenimientos" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Ver Mantenimientos</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./MantenimientoMantenimientos" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Agregar Mantenimientos</p>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="nav-link active">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                        Prestamos
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./ListaPrestamos" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Ver Prestamos</p>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="nav-link active">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                        Perfil
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./MantenimientoEstudiantes" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Modificar Informacion del usuario</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a asp-page="./Login" class="nav-link active">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Cerrar Sesion</p>
+                        </a>
+                    </li>
+                </ul>
+            }
+        </li>
+    </ul>
+</nav>

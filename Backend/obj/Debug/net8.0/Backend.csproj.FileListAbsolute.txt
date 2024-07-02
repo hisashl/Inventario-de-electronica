@@ -1,0 +1,45 @@
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\bin\Debug\net8.0\Backend.deps.json
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\bin\Debug\net8.0\Backend.dll
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\bin\Debug\net8.0\Backend.pdb
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\bin\Debug\net8.0\Entidades.dll
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\bin\Debug\net8.0\Entidades.pdb
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.csproj.AssemblyReference.cache
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.AssemblyInfoInputs.cache
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.AssemblyInfo.cs
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.csproj.CopyComplete
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.dll
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\obj\Debug\net8.0\refint\Backend.dll
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.pdb
+C:\Users\BRUNO\Downloads\final final\ProyectoWeb\Backend\obj\Debug\net8.0\ref\Backend.dll
+C:\Users\brand\Desktop\ProyectoWeb\Backend\bin\Debug\net8.0\Backend.deps.json
+C:\Users\brand\Desktop\ProyectoWeb\Backend\bin\Debug\net8.0\Backend.dll
+C:\Users\brand\Desktop\ProyectoWeb\Backend\bin\Debug\net8.0\Backend.pdb
+C:\Users\brand\Desktop\ProyectoWeb\Backend\bin\Debug\net8.0\Entidades.dll
+C:\Users\brand\Desktop\ProyectoWeb\Backend\bin\Debug\net8.0\Entidades.pdb
+C:\Users\brand\Desktop\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.csproj.AssemblyReference.cache
+C:\Users\brand\Desktop\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brand\Desktop\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.AssemblyInfoInputs.cache
+C:\Users\brand\Desktop\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.AssemblyInfo.cs
+C:\Users\brand\Desktop\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\brand\Desktop\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.csproj.CopyComplete
+C:\Users\brand\Desktop\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.dll
+C:\Users\brand\Desktop\ProyectoWeb\Backend\obj\Debug\net8.0\refint\Backend.dll
+C:\Users\brand\Desktop\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.pdb
+C:\Users\brand\Desktop\ProyectoWeb\Backend\obj\Debug\net8.0\ref\Backend.dll
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\bin\Debug\net8.0\Backend.deps.json
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\bin\Debug\net8.0\Backend.dll
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\bin\Debug\net8.0\Backend.pdb
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\bin\Debug\net8.0\Entidades.dll
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\bin\Debug\net8.0\Entidades.pdb
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.csproj.AssemblyReference.cache
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.AssemblyInfoInputs.cache
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.AssemblyInfo.cs
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.csproj.CopyComplete
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.dll
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\obj\Debug\net8.0\refint\Backend.dll
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\obj\Debug\net8.0\Backend.pdb
+C:\Users\Albert\Desktop\ProyectoWebV2\ProyectoWeb\Backend\obj\Debug\net8.0\ref\Backend.dll
